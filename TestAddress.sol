@@ -27,7 +27,7 @@ contract TestAddress {
         assembly {
             id := chainid()
         }
-        ba = id;
+        ba = id+1;
     }
     function isContractOrNot (address testAddr) public view returns (bool) {
         //ba = adda.balance;
