@@ -18,6 +18,7 @@ library Address {
     }
 }
 
+//better
 contract TestAddress {
     address payable public adda;
     uint256 public ba;
@@ -28,7 +29,6 @@ contract TestAddress {
         }
         ba = id;
     }
-
     function isContractOrNot (address testAddr) public view returns (bool) {
         //ba = adda.balance;
         //adda.transfer(100);
